@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Camping With Friends</title>
+    <link rel="stylesheet" href="assets/stylesheets/reset.css">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <!-- Adding link to google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400">
+  </head>
+  <body>
+
+  <!-- Header -->
+  <!-- Need to add group class in order to contain the h1 elem float. Header is nearest parent elem. This applies clearfix style to header -->
+    <header class="primary-header container group">
+
+      <h1 class="logo">
+        <a href="index.html">Genny <br> Camping <br/> Adventures</a>
+      </h1>
+
+      <h3 class="tagline">A fun time for all!</h3>
+
+      <nav class="nav primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li><!--
+          --><li><a href="previous_campsites.html">Previous Campsites</a></li><!--
+          --><li><a href="items.html">Items</a></li><!--
+          --><li><a href="next_year.html">Next Year</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <!-- Lead -->
+
+    <section class="row-alt">
+      <div class="lead container">
+
+        <h1>Next Year</h1>
+
+        <p>Here's where something about next year will go maybe</p>
+
+      </div>
+    </section>
+
+    <!-- Main section -->
+    <section class="row">
+      <div class="grid">
+
+<!-- Keeping in mind that the column classes make both the <div> and <iframe> elements inline-block elements, we need to remove the empty space that will appear between them. To do so we’ll open an HTML comment directly after the closing <div> tag, and we’ll close the HTML comment immediately before the opening <iframe> tag. -->
+        <section class="campsite-2017">
+
+          <div class="col-1-3">
+            <h2>Taconic State Park</h2>
+            <p>253 NY-344, Copake Falls, NY 12517</p>
+            <p><a href="nysparks.com/parks/83/details.aspx">Taconic Website</a> <br/> (518) 329-3993</p>
+          </div><!--
+
+        --><iframe class="campsite-map col-2-3" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11837.484459581847!2d-73.5196101!3d42.1209378!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd5db7318545edc9!2sTaconic+State+Park!5e0!3m2!1sen!2sus!4v1482427247740"></iframe>
+
+        </section>
+
+        <section class="campsite-2016">
+
+          <div class="col-1-3">
+            <h2>Taconic State Park</h2>
+            <p>253 NY-344, Copake Falls, NY 12517</p>
+            <p><a href="nysparks.com/parks/83/details.aspx">Taconic Website</a> <br/> (518) 329-3993</p>
+          </div><!--
+
+        --><iframe class="campsite-map col-2-3" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11837.484459581847!2d-73.5196101!3d42.1209378!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd5db7318545edc9!2sTaconic+State+Park!5e0!3m2!1sen!2sus!4v1482427247740"></iframe>
+        </section>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Float the copyright to the left within <small> and let all other elems wrap around it to the right
+           Applying a class tot he parent of the floated element (small) - in this case, the <footer> 
+           Using a unique CSS selector to select elem and then float it
+           Adding group class since we know we'll be floating an elem within the footer elem
+     -->
+    <footer class="primary-footer container group">
+
+      <small>&copy; Jason Kaye</small>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li><!--
+          --><li><a href="previous_campsites.html">Previous Campsites</a></li><!--
+          --><li><a href="items.html">Items</a></li><!--
+          --><li><a href="next_year.html">Next Year</a></li>
+        </ul>
+      </nav>
+
+    </footer>
+    
+  </body>
+</html>

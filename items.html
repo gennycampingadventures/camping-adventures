@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Camping With Friends</title>
+    <link rel="stylesheet" href="assets/stylesheets/reset.css">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <!-- Adding link to google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400">
+  </head>
+  <body>
+
+  <!-- Header -->
+  <!-- Need to add group class in order to contain the h1 elem float. Header is nearest parent elem. This applies clearfix style to header -->
+    <header class="primary-header container group">
+
+      <h1 class="logo">
+        <a href="index.html">Genny <br> Camping <br/> Adventures</a>
+      </h1>
+
+      <h3 class="tagline">A fun time for all!</h3>
+
+      <nav class="nav primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li><!--
+          --><li><a href="previous_campsites.html">Previous Campsites</a></li><!--
+          --><li><a href="items.html">Items</a></li><!--
+          --><li><a href="next_year.html">Next Year</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <!-- Lead -->
+
+    <section class="row-alt">
+      <div class="lead container">
+
+        <h1>Items</h1>
+
+        <p>Here's where something about items will go maybe</p>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Float the copyright to the left within <small> and let all other elems wrap around it to the right
+           Applying a class tot he parent of the floated element (small) - in this case, the <footer> 
+           Using a unique CSS selector to select elem and then float it
+           Adding group class since we know we'll be floating an elem within the footer elem
+     -->
+    <footer class="primary-footer container group">
+
+      <small>&copy; Jason Kaye</small>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li><!--
+          --><li><a href="previous_campsites.html">Previous Campsites</a></li><!--
+          --><li><a href="items.html">Items</a></li><!--
+          --><li><a href="next_year.html">Next Year</a></li>
+        </ul>
+      </nav>
+
+    </footer>
+    
+  </body>
+</html>

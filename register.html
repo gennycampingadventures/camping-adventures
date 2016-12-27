@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Camping With Friends</title>
+    <link rel="stylesheet" href="assets/stylesheets/reset.css">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <!-- Adding link to google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400">
+  </head>
+  <body>
+
+  <!-- Header -->
+  <!-- Need to add group class in order to contain the h1 elem float. Header is nearest parent elem. This applies clearfix style to header -->
+    <header class="primary-header container group">
+
+      <h1 class="logo">
+        <a href="index.html">Camping <br/> Adventures</a>
+      </h1>
+
+      <h3 class="tagline">A fun time for all!</h3>
+
+      <nav class="nav primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li><!--
+          --><li><a href="previous_campsites.html">Previous Campsites</a></li><!--
+          --><li><a href="items.html">Items</a></li><!--
+          --><li><a href="next_year.html">Next Year</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <!-- Lead -->
+
+    <section class="row-alt">
+      <div class="lead container">
+
+        <h1>Registration</h1>
+
+        <p>Testing some registration form stuff, will not show on page</p>
+
+      </div>
+    </section>
+
+    <!-- Main section -->
+    <!-- As a refresher, the class attribute value of row adds a white background and provides some vertical padding, while the class attribute value of grid centers our content in the middle of the page and provides some horizontal padding. -->
+    <section class="row">
+      <div class="grid">
+
+        <section class="col-2-3">
+
+          <h2>Purchase a Conference Pass</h2>
+          <h5>$99 per Pass</h5>
+
+          <p>Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we&#8217;ll follow up and provide a receipt for your purchase. See you soon!</p>
+
+          <h4>Why Attend?</h4>
+
+          <ul class="why-attend">
+          <li>Over twenty world-class speakers</li>
+            <li>One full day of workshops and two full days of presentations</li>
+            <li>Hosted at The Chicago Theatre, a historical landmark</li>
+            <li>August in Chicago is simply amazing</li>
+          </ul>
+
+        </section><!--
+
+      --><form class="col-1-3" action="#" method="post">
+        
+        <fieldset class="register-group">
+        
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Full name" required>
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" placeholder="Email address" required>
+          </label>
+
+          <label>
+            Number of Passes
+            <select name="quantity" required>
+              <option value="1" selected>1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </label>
+
+          <label>
+            Comments
+            <textarea name="comments"></textarea>
+          </label>
+
+        </fieldset>
+
+        <input class="btn btn-default" type="submit" name="submit" value="Purchase">
+
+      </form>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Float the copyright to the left within <small> and let all other elems wrap around it to the right
+           Applying a class tot he parent of the floated element (small) - in this case, the <footer> 
+           Using a unique CSS selector to select elem and then float it
+           Adding group class since we know we'll be floating an elem within the footer elem
+     -->
+    <footer class="primary-footer container group">
+
+      <small>&copy; Jason Kaye</small>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li><!--
+          --><li><a href="previous_campsites.html">Previous Campsites</a></li><!--
+          --><li><a href="items.html">Items</a></li><!--
+          --><li><a href="next_year.html">Next Year</a></li>
+        </ul>
+      </nav>
+
+    </footer>
+    
+  </body>
+</html>

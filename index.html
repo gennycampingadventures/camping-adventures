@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Camping With Friends</title>
+    <link rel="stylesheet" href="assets/stylesheets/reset.css">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <!-- Adding link to google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400">
+  </head>
+  <body>
+  
+  <!-- Header -->
+  <!-- Need to add group class in order to contain the h1 elem float. Header is nearest parent elem. This applies clearfix style to header -->
+    <header class="primary-header container group">
+
+      <h1 class="logo">
+        <a href="index.html">Genny <br> Camping <br/> Adventures</a>
+      </h1>
+
+      <h3 class="tagline">4 more years! 4 more years!</h3>
+
+      <nav class="nav primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li><!--
+          --><li><a href="#">Previous Campsites</a></li><!--
+          --><li><a href="#">Items</a></li><!--
+          --><li><a href="#">Photos</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+  <!-- Hero -->
+
+      <section class="hero container">
+        <h2>Camping Adventures</h2>
+        <p>Everyone knows 3 years makes a tradition. <br>
+              But what's better than 3 years of something? <br>
+              4 years of something!
+        </p>
+
+
+        <a class="btn btn-alt" href="index.html">Suggestions for 2017 (doesn't do anything yet)</a>
+
+      </section>
+
+  <!-- Teasers -->
+
+    <section class="row">
+
+      <div class="grid">
+
+        <p class="main-intro">This site is dedicated to our summerly tradition of camping, hiking, boozing, and getting quiet-coyoted by park rangers. It's very much a work in progress but my dream, my one single dream, is that we can use this to celebrate our past camping trips and organize our future camping trips.</p>
+      
+        <!-- Previous Campsites -->
+
+        <section class="teaser col-1-3">
+
+          <h5>Previous Campsites</h5>
+          <a href="#">
+            <img src="assets/images/home/campfire.jpg" alt="A massive campfire" />
+            <h3>List of previous campsites</h3>
+          </a>
+          <p>We've been to Taconic, the Catskills, hooray!</p>
+        
+        </section><!-- 
+
+        Camping Checklist
+
+        --><section class="teaser col-1-3">
+
+          <h5>Camping Checklist</h5>
+          <a href="#">
+            <img src="assets/images/home/items.jpg" alt="Stock camping items" />
+            <h3>List of Items</h3>
+          </a>
+          <p>List of camping necessities</p>
+    
+        </section><!-- 
+
+        Ideas for Next Year
+
+        --><section class="teaser col-1-3">
+
+          <h5>Photos</h5>
+          <a href="#">
+            <img src="assets/images/home/joy.jpg" alt="Best friends hugging and smiling" />
+            <h3>Albums of joy</h3>
+          </a>
+          <p>And debauchery</p>
+        
+        </section>
+
+      </div> <!-- closes grid div -->
+
+    </section> <!-- closes row section -->
+
+    <!-- Footer -->
+    <!-- Float the copyright to the left within <small> and let all other elems wrap around it to the right
+           Applying a class tot he parent of the floated element (small) - in this case, the <footer> 
+           Using a unique CSS selector to select elem and then float it
+           Adding group class since we know we'll be floating an elem within the footer elem
+     -->
+    <footer class="primary-footer container group">
+
+      <small>&copy; Jason Kaye</small>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li><!--
+          --><li><a href="previous_campsites.html">Previous Campsites</a></li><!--
+          --><li><a href="items.html">Items</a></li><!--
+          --><li><a href="next_year.html">Next Year</a></li>
+        </ul>
+      </nav>
+
+    </footer>
+  </body>
+</html>
