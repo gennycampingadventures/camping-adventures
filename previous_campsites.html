@@ -18,14 +18,14 @@
         <a href="index.html">Genny <br> Camping <br/> Adventures</a>
       </h1>
 
-      <h3 class="tagline">A fun time for all!</h3>
+      <h3 class="tagline">4 more years! 4 more years!</h3>
 
       <nav class="nav primary-nav">
         <ul>
           <li><a href="index.html">Home</a></li><!--
           --><li><a href="previous_campsites.html">Previous Campsites</a></li><!--
-          --><li><a href="items.html">Items</a></li><!--
-          --><li><a href="next_year.html">Next Year</a></li>
+          --><li><a href="#">Items</a></li><!--
+          --><li><a href="#">Photos</a></li>
         </ul>
       </nav>
 
@@ -38,86 +38,45 @@
 
         <h1>Previous Campsites</h1>
 
-        <p>Here's where something about previous campsites will go maybe</p>
+        <p>List of all the parks and campsites we've camped in</p>
 
       </div>
     </section>
 
-    <!-- Main content -->
-    <!-- the closing tag of the <div> element is followed by the opening of an HTML comment, and the opening tag of the <aside> element is preceded by the closing of an HTML comment. Because the column-based classes will display these elements as inline-block elements, we are removing the blank space that will appear between them. -->
-
+    <!-- Main section -->
     <section class="row">
       <div class="grid">
 
-        <!-- Taconic campsite -->
+<!-- Keeping in mind that the column classes make both the <div> and <iframe> elements inline-block elements, we need to remove the empty space that will appear between them. To do so we’ll open an HTML comment directly after the closing <div> tag, and we’ll close the HTML comment immediately before the opening <iframe> tag. -->
+        <section class="campsite-2017">
 
-        <section class="campsite" id="taconic">
-        <!-- We can then apply this class to the <section> element for each speaker, provided it isn’t the last speaker. We’ll omit this class on the last speaker, as we don’t want to create any unnecessary margins before our <footer> element. With more than one speaker, our layout will look like this -->
+          <div class="col-1-3">
+            <h2>Taconic State Park</h2>
+            <p>253 NY-344, Copake Falls, NY 12517</p>
+            <p><a href="http://nysparks.com/parks/83/details.aspx">Taconic Park</a> <br/> (518) 329-3993</p>
+            <ul>
+              <li>Campsites (2013)</li>
+              <li>Campsites (2014)</li>
+              <li>Campsites (2015)</li>
+            </ul>
+          </div><!--
 
-            <div class="col-2-3">
-
-              <h2>Taconic State Parkway</h2>
-              <h5>A Green Dream</h5>
-
-              <p>Our first campsite, back in 2011. Write some history here about how awesome it was.</p>
-
-              <h5>About Taconic</h5>
-
-              <p>This is filler shit.</p>
-              
-            </div><!--
-
-          --><aside class="col-1-3">
-          
-          <!-- We’re placing a <div> element inside the <aside> element with the class attribute value of col-1-3 because we’ll want the padding inherited from the col-1-3 class to be outside of the border on the <div> element. Before long we’ll be including an image within the <div> element, alongside the unordered list; therefore we created a <div> element as opposed to applying these styles directly to the <ul> element. -->
-
-            <div class="campsite-info">
-
-              <img src="assets/images/previous_campsites/shay-howe.jpg" alt="Shay Howe">
-              
-              <ul>     
-                <li><a href="http://nysparks.com/parks/83/details.aspx">Taconic State Park</li>          
-              </ul>
-
-            </div>
-            
-          </aside>
+        --><iframe class="campsite-map col-2-3" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11837.484459581847!2d-73.5196101!3d42.1209378!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd5db7318545edc9!2sTaconic+State+Park!5e0!3m2!1sen!2sus!4v1482427247740"></iframe>
 
         </section>
 
-        <!-- Taconic site take 2 (change this) -->
-      
-        <section id="taconic">
+        <section class="campsite-2016">
 
-            <div class="col-2-3">
+          <div class="col-1-3">
+            <h2>Woodland Valley</h2>
+            <p>1319 Woodland Valley Rd, Phoenicia, NY 12464</p>
+            <p><a href="http://www.nystateparkstours.com/dec/woodlandvalley/">Woodland Valley</a> <br/> (845) 688-7647</p>
+            <ul>
+              <li>Campsites 55 and 56 (2016)</li>
+            </ul>
+          </div><!--
 
-              <h2>Taconic State Parkway</h2>
-              <h5>A Green Dream</h5>
-
-              <p>Our first campsite, back in 2011. Write some history here about how awesome it was.</p>
-
-              <h5>About Taconic</h5>
-
-              <p>This is filler shit.</p>
-              
-            </div><!--
-
-          --><aside class="col-1-3">
-          
-          <!-- We’re placing a <div> element inside the <aside> element with the class attribute value of col-1-3 because we’ll want the padding inherited from the col-1-3 class to be outside of the border on the <div> element. Before long we’ll be including an image within the <div> element, alongside the unordered list; therefore we created a <div> element as opposed to applying these styles directly to the <ul> element. -->
-
-            <div class="campsite-info">
-
-              <img src="assets/images/previous_campsites/shay-howe.jpg" alt="Shay Howe">
-
-              <ul>     
-                <li><a href="http://nysparks.com/parks/83/details.aspx">Taconic State Park</li>          
-              </ul>
-
-            </div>
-            
-          </aside>
-
+        --><iframe class="campsite-map col-2-3" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11853.401282236544!2d-74.3654695!3d42.0356677!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbbe3f25cb9b66b17!2sWoodland+Valley+Campsite!5e0!3m2!1sen!2sus!4v1483184501477"></iframe>
         </section>
 
       </div>
@@ -139,8 +98,8 @@
         <ul>
           <li><a href="index.html">Home</a></li><!--
           --><li><a href="previous_campsites.html">Previous Campsites</a></li><!--
-          --><li><a href="items.html">Items</a></li><!--
-          --><li><a href="next_year.html">Next Year</a></li>
+          --><li><a href="#">Items</a></li><!--
+          --><li><a href="#">Photos</a></li>
         </ul>
       </nav>
 
