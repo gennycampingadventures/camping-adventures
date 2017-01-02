@@ -442,6 +442,22 @@ p a {
 
 /*
   ========================================
+  Items
+  ========================================
+*/
+
+.campsite-items {
+  max-width: 100%;
+  text-align: center;
+}
+
+.item-header {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+/*
+  ========================================
   Register
   ========================================
 */
@@ -573,14 +589,4 @@ table h4 {
 
 .schedule-offset {
   color: #a9b2b9;
-}
-
-.campsite-items {
-  max-width: 100%;
-  text-align: center;
-}
-
-.item-header {
-  font-weight: 400;
-  margin-bottom: 5px;
 }
