@@ -590,3 +590,14 @@ table h4 {
 .schedule-offset {
   color: #a9b2b9;
 }
+
+/*
+  ========================================
+  Photos
+  ========================================
+*/
+
+a, h2 #year-2015 {
+  text-align:center;
+  margin-bottom:15px;
+}
