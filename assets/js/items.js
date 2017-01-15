@@ -11,6 +11,22 @@ $(document).ready(function() {
         newItem.appendChild(document.createTextNode(itemValue));
         utensilsList.appendChild(newItem);
         itemId.value = "";
+      } else if (inputId=="add-item-list-two") {
+        var itemId = document.getElementById('item-list-two');
+        var itemValue = itemId.value;
+        var utensilsList = document.getElementById('food-list');
+        var newItem = document.createElement('li');
+        newItem.appendChild(document.createTextNode(itemValue));
+        utensilsList.appendChild(newItem);
+        itemId.value = "";
+      } else if (inputId=="add-item-list-three") {
+        var itemId = document.getElementById('item-list-three');
+        var itemValue = itemId.value;
+        var utensilsList = document.getElementById('misc-list');
+        var newItem = document.createElement('li');
+        newItem.appendChild(document.createTextNode(itemValue));
+        utensilsList.appendChild(newItem);
+        itemId.value = "";
       }
     });
   }
