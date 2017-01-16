@@ -130,8 +130,7 @@
         databaseURL: "https://gennycamping.firebaseio.com",
         storageBucket: "gennycamping.appspot.com"
       };
-      // Get a reference to the database service
-      // var database = firebase.database();
+      firebase.initializeApp(config);
     </script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/items.js"></script>
