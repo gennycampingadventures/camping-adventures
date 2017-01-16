@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  jQuery.support.cors = true;
   /* Apply fancybox to multiple items */
   
   // $("a.fancybox").fancybox({
