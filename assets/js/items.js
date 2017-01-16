@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  // Get a reference to the database service
+  var database = firebase.database();
   var elements = document.querySelectorAll("#add-item-list-one, #add-item-list-two, #add-item-list-three");
   for (var i = 0; i < elements.length; i++) {
     elements[i].addEventListener("click", function() {
