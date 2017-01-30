@@ -15,6 +15,9 @@ $(document).ready(function() {
   //   // prevEffect: 'fade',
   //   // nextEffect: 'fade'
   // });
-  $(".fancybox").fancybox()
+  $(".fancybox").fancybox({
+    type: "image",
+    arrows: false
+  })
 
 });

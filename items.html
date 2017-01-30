@@ -48,49 +48,24 @@
       <div class="grid">
 
         <section class="campsite-items col-1-3">
+          <h3 class="item-header">Utensils</h3>
           <ul id="utensils-list">
-            <li class="item-header">Utensils</li>
-            <li>paper plates</li>
-            <li>paper towels</li>
-            <li>garbage bags</li>
-            <li>plastic silverware</li>
-            <li>propane</li>
           </ul>
           <input type="text" id="item-list-one"><br />
           <input type="button" id="add-item-list-one" value="Add Item">
         </section><!--
 
         --><section class="campsite-items col-1-3">
+          <h3 class="item-header">Food</h3>
           <ul id="food-list">
-            <li class="item-header">Food</li>
-            <li>hamburgers</li>
-            <li>hamburger buns</li>
-            <li>hot dogs</li>
-            <li>hot dog buns</li>
-            <li>ketchup</li>
-            <li>mustard</li>
-            <li>chocolate</li>
-            <li>marshmallows</li>
-            <li>graham crackers</li>
-            <li>deli meats</li>
-            <li>cheese</li>
-            <li>bread</li>
-            <li>chips</li>
-            <li>eggs</li>
           </ul>
           <input type="text" id="item-list-two"><br />
           <input type="button" id="add-item-list-two" value="Add Item">
         </section><!--
 
         --><section class="campsite-items col-1-3">
+          <h3 class="item-header">Misc</h3>
           <ul id="misc-list">
-            <li class="item-header">Misc</li>
-            <li>smiles</li>
-            <li>cuddles</li>
-            <li>frisbee</li>
-            <li>grill</li>
-            <li>cooler</li>
-            <li>playing cards</li>
           </ul>
           <input type="text" id="item-list-three"><br />
           <input type="button" id="add-item-list-three" value="Add Item">
@@ -120,15 +95,16 @@
 
     </footer>
 
-    <script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.7/firebase.js"></script>
     <!-- <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-database.js"></script> -->
     <script>
       // Initialize Firebase
       var config = {
-        apiKey: "AIzaSyAnl-5eU74SLtuTJbZ8qLu5PH5riZM5-7c",
-        authDomain: "gennycamping.firebaseapp.com",
-        databaseURL: "https://gennycamping.firebaseio.com",
-        storageBucket: "gennycamping.appspot.com"
+        apiKey: "AIzaSyA5cD6wqaYV-sWe0FANvB1eu8pyHQW093I",
+        authDomain: "camping-adventures.firebaseapp.com",
+        databaseURL: "https://camping-adventures.firebaseio.com",
+        storageBucket: "camping-adventures.appspot.com",
+        messagingSenderId: "250906026286"
       };
       firebase.initializeApp(config);
     </script>
